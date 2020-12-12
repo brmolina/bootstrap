@@ -180,6 +180,9 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
+					<button type="button" data-dismiss="modal" class="close">
+						<span>&times;</span>
+					</button>
 					<h4 class="modal-title">Nova Ordem de Serviço</h4>
 				</div>
 				<form>
@@ -193,7 +196,7 @@
 						<div class="row">
 
 							<div class="form-group col-sm-5">
-								<label for="cliente" >Cliente</label>
+								<label class="control-label" for="cliente" >Cliente</label>
 								<select id="cliente" class="form-control">
 									<option value="">Selecione...</option>
 									<option value="1">Frodo Bolseiro</option>
@@ -203,7 +206,7 @@
 							</div>
 
 							<div class="form-group col-sm-7">
-								<label for="servico" >Serviços</label>
+								<label class="control-label" for="servico" >Serviços</label>
 								<select id="servico" class="form-control">
 									<option value="">Selecione...</option>
 									<option value="1">Ajuste de Data e Hora</option>
@@ -215,14 +218,14 @@
 
 						<div class="row">
 							<div class="form-group col-xs-12">
-								<label for="observacao">Observação</label>
+								<label class="control-label" for="observacao">Observação</label>
 								<textarea id="observacao" class="form-control" rows="3"></textarea>
 							</div>
 						</div>
 
 						<div class="row">
 							<div class="form-group col-sm-4">
-								<label for="valor">Valor</label>
+								<label class="control-label" for="valor">Valor</label>
 								<div class="input-group">
 									<div class="input-group-addon">R$</div>
 									<input type="text" name="valor" id="valor" class="form-control">
