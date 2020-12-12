@@ -36,11 +36,16 @@
 
 	.paginacao {
 		text-align: center;
+		margin-top: 20px;
 	}
 
-	.paginacao .pagination {
-		margin-top: 40px;
+
+
+	.botao-novo {
+		text-align: center;
 	}
+
+
 }
 
 .cabecalho h1 {
@@ -59,3 +64,4 @@
 .paginacao .pagination {
 	margin: 0px;
 }
+
